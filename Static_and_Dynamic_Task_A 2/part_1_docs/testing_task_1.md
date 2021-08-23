@@ -36,6 +36,6 @@ def cards_total(self, cards):
   total # 'total has not been defined
   for card in cards:
     total += card.value
-    return "You have a total of" + total # this needs to be changed to an f string to be able to combine int and str values.
+    return "You have a total of" + total # this line needs to be in line with the "for" on line 37, and not indented to be part of the for loop. This also needs to be changed to an f string to be able to combine int and str values.
   
 ```
